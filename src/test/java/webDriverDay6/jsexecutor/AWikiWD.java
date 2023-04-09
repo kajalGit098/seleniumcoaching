@@ -22,7 +22,7 @@ public void setUp() throws Exception {
 	/*System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ketan\\OneDrive\\Selenium\\workspace\\seleniumcoaching\\src\\test\\resources\\chromedriver.exe");
   	driver = new ChromeDriver();
   	*/
-	  WebDriverManager.chromedriver().setup();
+	 // WebDriverManager.chromedriver().setup();
 	  driver = new ChromeDriver();
 	//  driver = new FirefoxDriver();
     baseUrl = "http://www.wikipedia.org/";
